@@ -38,10 +38,10 @@ jobs:
         run: Rscript -e 'install.packages("rmarkdown")'
 
       - name: Build RMarkdown site
-        run: Rscript -e 'rmarkdown::render_site(input = "Fullstack-DataScientist/_site")'
+        run: Rscript -e 'rmarkdown::render_site(input = "/_site")'
 
       - name: Add .nojekyll file
-        run: echo "" > Fullstack-DataScientist/_site/.nojekyll
+        run: echo "" > /_site/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
