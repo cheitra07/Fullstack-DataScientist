@@ -1,0 +1,8 @@
+---
+title: "SWOT Analysis"
+---
+[Back-to-home](index.html)
+
+#### Strength,Weakness,Oppurtunity,Threat is Analysed.
+
+[![swot](images/swot.png)](swot.html)

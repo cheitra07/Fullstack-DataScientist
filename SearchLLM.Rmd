@@ -1,0 +1,12 @@
+---
+title: ####"Search Excel Machine parts Document with LLM"
+---
+[Back-to-home](index.html)
+
+##### LLM Framework: Lamma Index
+
+##### Database: Faiss
+
+##### Deployment: Aws
+
+[![SearchLLM](images/search_excel_llm.PNG)](SearchLLM.RMD)

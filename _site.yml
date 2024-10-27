@@ -1,0 +1,17 @@
+name: "my-portfolio"
+navbar:
+  title: "Principal Data Scientist"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+sidebar:
+    - title: "Projects"
+      style: "docked"
+      background: light
+      contents:
+        - guides.Rmd
+        - prd.Rmd
+        - sow.Rmd
+     

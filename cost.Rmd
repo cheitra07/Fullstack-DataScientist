@@ -1,0 +1,7 @@
+---
+title: "Machinery Parts Cost Escalation using R time series in PowerBI."
+---
+
+[Back-to-home](index.html)
+
+[![cost](images/cost.png)](cost.html)

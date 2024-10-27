@@ -1,0 +1,9 @@
+---
+title: "Employee Attrition Analysis and Deployment using mlops in aws."
+---
+
+[Back-to-home](index.html)
+
+###### *Root Cause Analysis.*
+
+[![attrition](images/hrattrition.png)](hrford.html)

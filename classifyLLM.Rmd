@@ -1,0 +1,11 @@
+---
+title: "Support Ticket Classification using LLM"
+---
+
+[Back-to-home](index.html)
+
+##### LLM Framework: Google Gemini
+
+##### Database: Faiss
+
+##### ![](images/rag-gemini.png)Deployment: Aws

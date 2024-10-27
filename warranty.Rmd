@@ -1,0 +1,9 @@
+---
+title: "Warranty Parts Prediction Using ANN."
+---
+
+[Back-to-home](index.html)
+
+[![warrantyann](images/warrantyann.png)](warranty.html)
+
+Custom Ann model is developed using Keras.

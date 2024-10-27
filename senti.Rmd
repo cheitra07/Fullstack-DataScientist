@@ -1,0 +1,7 @@
+---
+title: "Sentiment Analysis in R using Naive bayes,Word cloud."
+---
+
+[Back-to-home](index.html)
+
+[![senti](images/senti.png)](senti.html)

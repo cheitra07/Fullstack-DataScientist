@@ -1,0 +1,96 @@
+---
+title: "My Data Science Portfolio"
+---
+
+## Hello !!!
+
+-   
+
+    #### **Projects:**
+
+-   
+
+    #### *LLM and GAI:*
+
+    -   
+
+        ##### [Search Excel Machine Parts using LLM](SearchLLm.html)[^1]
+
+    -   
+
+        ##### [Support Tickets Classification using LLM](classifyLLm.html)
+
+-   
+
+    #### *Deep Learning:*
+
+    -   
+
+        ##### [Warranty Parts Prediction using ANN](warranty.html)
+
+    -   
+
+        ##### [Logo Duplication Identification using CNN](logocnn.html)
+
+    -   
+
+        ##### [Hr Attrition Analysis using ANN](hrford.html)[^2]
+
+
+-   
+
+    #### *Machine Learning:*
+
+    -   
+
+        ##### [Sentiment Analysis using NaiveBayes,WordCloud](senti.html)
+
+    -   
+
+        ##### [Behaviral Analysis -Cohorts,Pareto,RFM charts](cohort.html)
+
+    -   
+
+        ##### [Cost Esclation using Time Series](cost.html)[^3]
+
+    -   
+
+        ##### [Hr Analytics using Shiny](hrshiny.html)
+-   
+
+    #### *MLOPS:*
+
+    -   
+
+        ##### [Mlops using AWS](awsmlops.html)
+-   
+
+    #### *Full Stack:*
+
+    -   
+
+        ##### [Full Stack Data Science](fullstack.html)
+-   
+
+    #### *Cross Skills Training:*
+-   
+
+    ##### [PRD](prd.html)
+
+-   
+
+    ##### [SOW](sow.html)
+
+-   
+
+    ##### [SWOT](swot.html)
+
+-   
+
+    ##### [Reference Guides Technical Documentation](guides.html)
+
+[^1]: [Full Stack deployed to aws]
+[^2]: [Full Stack deployed to aws]
+[^3]: [Full Stack deployed to calibo]
+
+

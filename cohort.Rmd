@@ -1,0 +1,9 @@
+---
+title: "Behaviour Analysis using Cohorts."
+---
+
+[Back-to-home](index.html)
+
+###### *For Retail Company Customer Behaviour Analysis*
+
+[![cohort](images/cohort.png)](cohort.html)

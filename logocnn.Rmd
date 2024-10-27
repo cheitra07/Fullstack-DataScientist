@@ -1,0 +1,9 @@
+---
+title: "Logo Duplication Check using CNN"
+---
+
+[Back-to-home](index.html)
+
+[![](images/logocnn.png)](logocnn.html)
+
+Siemese network is used to check for duplication.

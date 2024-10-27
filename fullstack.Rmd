@@ -1,0 +1,9 @@
+---
+title: "Full Stack Data Science Project Management."
+---
+
+[Back-to-home](index.html)
+
+###### \* Involved in Project managment 7 Product mangement\*
+
+[![fullstack](images/fullstack.PNG)](fullstack.html)
