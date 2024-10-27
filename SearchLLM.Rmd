@@ -3,7 +3,7 @@ title: ####"Search Excel Machine parts Document with LLM"
 ---
 [Back-to-home](index.html)
 
-##### LLM Framework: Lamma Index
+##### LLM Framework: Lamma Index.
 
 ##### Database: Faiss
 
