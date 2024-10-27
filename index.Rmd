@@ -14,11 +14,11 @@ title: "My Data Science Portfolio"
 
     -   
 
-        ##### [Search Excel Machine Parts using LLM](SearchLLm.html)[^1]
+        ##### [Search Excel Machine Parts using LLM](searchllm.html)[^1]
 
     -   
 
-        ##### [Support Tickets Classification using LLM](classifyLLm.html)
+        ##### [Support Tickets Classification using LLM](classifyllm.html)
 
 -   
 

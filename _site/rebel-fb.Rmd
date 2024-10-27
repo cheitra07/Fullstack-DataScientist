@@ -1,0 +1,33 @@
+---
+title: "Rebel Foods F&B Project"
+---
+
+### ***Project on decoupling restautants from real estate across neighbours.***
+
+**Machine Learning Models Regression Models**
+
+**Linear Regression**: For predicting sales or demand based on various factors.
+
+**Gradient Boosting Models** (e.g., XGBoost, LightGBM): For accurate demand forecasting and price prediction. Classification Models
+
+**Logistic Regression**: For customer segmentation or churn prediction. Random Forest: For classifying customer types or predicting operational metrics.
+
+**Support Vector Machines (SVM)**: For classifying different customer segments. Clustering Models
+
+**K-Means Clustering**: To segment customers based on purchasing behavior. DBSCAN: For identifying clusters of restaurants or delivery zones. Time Series Models
+
+**ARIMA**: For forecasting sales and customer demand over time. Prophet: For capturing seasonality in sales data. Deep Learning Models Recurrent Neural Networks (RNNs)
+
+**LSTM (Long Short-Term Memory networks)**: For predicting demand trends based on historical data.
+
+**Convolutional Neural Networks (CNNs)**:For analyzing images of dishes or restaurant environments, potentially for visual recognition tasks. Transformer Models
+
+**Transformers**: For tasks involving sequential data and context understanding, such as sales forecasting based on temporal features.
+
+**Large Language Models (LLMs) BERT (Bidirectional Encoder Representations from Transformers):** For sentiment analysis of customer reviews and feedback.
+
+**GPT (Generative Pre-trained Transformer)**: GPT-3/4: For generating marketing content, handling customer inquiries, and summarizing customer feedback.
+
+**DistilBERT:** A lightweight version of BERT for efficient sentiment analysis and text classification tasks.
+
+**T5 (Text-to-Text Transfer Transformer):** For versatile NLP tasks such as summarizing reviews and generating reports.

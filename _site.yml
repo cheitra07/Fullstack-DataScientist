@@ -4,14 +4,9 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Rebel F&B"
+      href: rebel-fb.html
     - text: "About"
       href: about.html
-sidebar:
-    - title: "Projects"
-      style: "docked"
-      background: light
-      contents:
-        - guides.Rmd
-        - prd.Rmd
-        - sow.Rmd
+
      
