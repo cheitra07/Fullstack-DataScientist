@@ -4,7 +4,7 @@ title: "Top Mangement Retention Analysis using RShiny."
 
 [Back-to-home](index.html)
 
-    ###### *HR Analytics.*
+    HR Analytics
 
     -   Time line charts for analyzing Cost to Company,Retention strategies.
 
