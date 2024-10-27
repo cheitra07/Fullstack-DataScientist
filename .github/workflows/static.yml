@@ -38,15 +38,20 @@ jobs:
         run: Rscript -e 'install.packages("rmarkdown")'
 
       - name: Build RMarkdown site
-        run: Rscript -e 'rmarkdown::render_site(input = "/_site")'
+        run: Rscript -e 'rmarkdown::render_site(input = "Fullstack-DataScientist")'
 
       - name: Add .nojekyll file
-        run: echo "" > /_site/.nojekyll
+        run: echo "" > Fullstack-DataScientist/_site/.nojekyll  # Update to the repo path
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Only upload the generated _site directory
+          path: 'Fullstack-DataScientist/_site'  # Update to the repo path
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
           path: 'Rpublish/Portfolio/rwebsite/_site'
 
       - name: Deploy to GitHub Pages
