@@ -38,17 +38,22 @@ jobs:
       - name: Install rmarkdown package
         run: Rscript -e 'install.packages("rmarkdown")'
 
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
       - name: Build RMarkdown site
-        run: Rscript -e 'rmarkdown::render_site(input = ".")'  # Assuming index.Rmd is in the root or update if in subdirectory
+        run: Rscript -e 'rmarkdown::render_site(input = ".")'  # Update if needed
 
       - name: Add .nojekyll file
-        run: echo "" > _site/.nojekyll  # Place .nojekyll in the correct directory
+        run: echo "" > _site/.nojekyll  # Adjust if needed
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Only upload the generated _site directory
-          path: '_site'  # Assuming _site is directly in the root
+          path: '_site'  # Adjust if needed
 
       - name: Deploy to GitHub Pages
         id: deployment
