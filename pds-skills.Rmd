@@ -1,4 +1,4 @@
-As an **individual contributor** in a Principal Data Science role, apart from coding and technical skills, several other essential skills and free tools can significantly enhance your performance. Here's a list:
+As an **individual contributor** in a Principal Data Science role, apart from coding and technical skills Here's a list:
 
 ---
 
@@ -28,6 +28,7 @@ As an **individual contributor** in a Principal Data Science role, apart from co
   - [Trello](https://trello.com/).  
   - [Asana](https://asana.com/) (free tier).  
   - [Miro](https://miro.com/) (for whiteboarding).  
+  - jira & confluence. 
 
 ---
 
@@ -96,4 +97,4 @@ As an **individual contributor** in a Principal Data Science role, apart from co
 
 ---
 
-Would you like a tailored learning path for any of these skills?
+
