@@ -72,7 +72,7 @@ title: "My Data Science Portfolio"
         ##### [Full Stack Data Science](fullstack.html)
      -   
 
-        ##### [PDS Skills](pdsskills.html)
+        ##### [PDS Skills](pds-skills.html)
 -   
 
     #### *Cross Skills Training:*
