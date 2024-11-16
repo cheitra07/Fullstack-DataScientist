@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>pds-skills.knit</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Principal Data Scientist</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="rebel-fb.html">Rebel F&amp;B</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<hr />
+<p>As an <strong>individual contributor</strong> in a Principal Data
+Science role, apart from coding and technical skills</p>
+<hr />
+<div id="business-acumen-and-domain-knowledge" class="section level3">
+<h3><strong>1. Business Acumen and Domain Knowledge</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Helps align data science efforts with
+business goals and understand the problem’s context.<br />
+</li>
+<li><strong>Key Aspects</strong>: Industry-specific trends, KPIs, and
+strategic impact of your solutions.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li>MOOCs (e.g., <a href="https://coursera.org">Coursera</a> free
+courses, <a href="https://edx.org">edX</a>).<br />
+</li>
+<li>Industry reports (e.g., McKinsey, Statista free resources).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="communication-and-storytelling" class="section level3">
+<h3><strong>2. Communication and Storytelling</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Translate technical insights into
+actionable recommendations for non-technical stakeholders.<br />
+</li>
+<li><strong>Key Aspects</strong>: Clear reporting, storytelling through
+data, visualization.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li><a href="https://public.tableau.com/">Tableau Public</a>.<br />
+</li>
+<li><a href="https://canva.com">Canva</a> (for storytelling
+visuals).<br />
+</li>
+<li><a href="https://flourish.studio/">Flourish</a> (interactive charts
+and stories).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="project-management" class="section level3">
+<h3><strong>3. Project Management</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Plan and manage timelines, resources,
+and deliverables efficiently.<br />
+</li>
+<li><strong>Key Aspects</strong>: Agile methodology, task
+prioritization, and risk management.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li><a href="https://trello.com/">Trello</a>.<br />
+</li>
+<li><a href="https://asana.com/">Asana</a> (free tier).<br />
+</li>
+<li><a href="https://miro.com/">Miro</a> (for whiteboarding).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="collaboration-and-teamwork" class="section level3">
+<h3><strong>4. Collaboration and Teamwork</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Effectively interact with
+cross-functional teams, including product managers, engineers, and
+domain experts.<br />
+</li>
+<li><strong>Key Aspects</strong>: Building consensus, resolving
+conflicts, and enabling seamless handoffs.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li><a href="https://slack.com/">Slack Free</a>.<br />
+</li>
+<li><a href="https://notion.so/">Notion</a> (for shared
+documentation).<br />
+</li>
+<li><a href="https://workspace.google.com/">Google Workspace</a> (free
+features).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="continuous-learning" class="section level3">
+<h3><strong>5. Continuous Learning</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Stay updated with rapidly evolving
+AI/ML tools, frameworks, and methodologies.<br />
+</li>
+<li><strong>Key Aspects</strong>: Keep up with LLMs, Generative AI
+advancements, and MLOps trends.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li><a href="https://huggingface.co/">Hugging Face Community</a>.<br />
+</li>
+<li><a href="https://paperswithcode.com/">Papers with Code</a>.<br />
+</li>
+<li><a href="https://github.com/">GitHub</a> (follow trending
+repositories).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="decision-making-and-problem-solving" class="section level3">
+<h3><strong>6. Decision-Making and Problem-Solving</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Make data-driven decisions and address
+complex challenges effectively.<br />
+</li>
+<li><strong>Key Aspects</strong>: Strategic thinking, risk assessment,
+and innovative solutions.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li><a href="https://lucidchart.com/">Lucidchart</a> (for decision flow
+diagrams).<br />
+</li>
+<li><a href="https://rationale.jina.ai/">Rationale Online</a> (AI
+decision-making tool).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="knowledge-sharing-and-mentorship" class="section level3">
+<h3><strong>7. Knowledge Sharing and Mentorship</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Train and mentor team members,
+contributing to overall organizational growth.<br />
+</li>
+<li><strong>Key Aspects</strong>: Sharing expertise, onboarding, and
+fostering collaboration.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li><a href="https://www.gitbook.com/">GitBook</a> (for creating
+internal documentation).<br />
+</li>
+<li><a href="https://www.loom.com/">Loom</a> (recording tutorials).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="innovation-and-creativity" class="section level3">
+<h3><strong>8. Innovation and Creativity</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Solve unique problems and design novel
+approaches to existing challenges.<br />
+</li>
+<li><strong>Key Aspects</strong>: Think outside the box and generate
+actionable ideas.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li><a href="https://www.mindmeister.com/">MindMeister</a> (mind mapping
+for brainstorming).<br />
+</li>
+<li><a href="https://obsidian.md/">Obsidian</a> (knowledge graphing and
+idea structuring).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="data-ethics-and-governance" class="section level3">
+<h3><strong>9. Data Ethics and Governance</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Ensure ethical handling of sensitive
+data and compliance with regulations like GDPR or CCPA.<br />
+</li>
+<li><strong>Key Aspects</strong>: Data privacy, bias reduction, and
+fairness in models.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li><a href="https://microsoft.github.io/presidio/">Microsoft
+Presidio</a> (PII identification).<br />
+</li>
+<li><a href="https://www.amundsen.io/">Amundsen</a> (data
+governance).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="research-and-analytical-skills" class="section level3">
+<h3><strong>10. Research and Analytical Skills</strong></h3>
+<ul>
+<li><strong>Why Needed</strong>: Interpret complex datasets, evaluate
+models, and derive meaningful insights.<br />
+</li>
+<li><strong>Key Aspects</strong>: Statistical analysis, hypothesis
+testing, and pattern recognition.<br />
+</li>
+<li><strong>Free Tools</strong>:
+<ul>
+<li><a href="https://orange.biolab.si/">Orange</a> (visual programming
+for data science).<br />
+</li>
+<li><a href="https://scipy.org/">SciPy</a> (for advanced statistical
+analysis).</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
